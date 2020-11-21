@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f3f6;
+}
+.logo{
+    margin-left: 9.7rem;
+    margin-top: -0.6%;
+    display: inline;
+    margin-top: -4%;
+}
+
+.imgFlip{
+    margin-bottom: -22%;
+}
+
+.AnchorLogo{
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 0.7rem;
+    margin-top: -1px;
+    color: rgb(236, 231, 231);
+}
+
+.AnchorLogo:hover{
+    text-decoration-color: white;
+    color:  rgb(236, 231, 231);
+}
+
+.plus{
+    color:#ffe500;
+}
+
+.imgPlus{
+    margin-top: -5%;
+    margin-left: -1%;
+}
+
+.searchbar{
+    background-color: white;
+    height: 2.5rem;
+}
+
+ .nav{
+    display: flex;
+    margin-bottom: 0.2%;
+} 
+
+.searchbar input{
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:-0.3rem; }
+}	
+
+/* Cards */
+.button{
+    border: 0;
+    border-radius: 0;
+    box-shadow: #878787;
+    outline: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    width: 6rem;
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+
+.dealsDiv{
+    font-size: 1.3rem;
+}
+
+.firstLine, .secondLine, .thirdLine{
+    cursor: pointer;
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.firstLine{
+    font-weight: bold;
+}
+
+.secondLine{
+    color: #388e3c;
+    font-weight: 595;
+}
+
+.thirdLine{
+    opacity: 0.6;
+}
+
+.cardImage{
+    position: relative;
+    padding: 1rem 1rem 0rem;
+}
+
+.cardMain{
+    height: 23rem;
+}
+
+.cards{
+    border-top: 1px solid rgb(214, 212, 212);
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.buttonDiv{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    border: none;
+}
+
+.cardItems{
+    width: 90%;
+}
+
+/* Card Ad */
+.ad{
+    height: 55.5vh;
+    width: 20%;
+}
+
+.adImage{
+    width: 16rem;
+    height: 22.3rem;
+}
+
+/* Ads */
+.Ads{
+    padding: 0 0% 0 0.5%;
+}
+
+.AdsImage{
+    width: 105%;
+    height: 100%;
+}
+
+/* footer */
+.footer-top{
+    color: #878787;
+    background-color: #fff;
+    text-align: left;
+    border-top: 1px solid #ddd;
+    padding: 2.2rem 2rem 1rem;
+}
+
+.footerHeading{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.footerPara{
+    font-size: 0.7rem;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+}
