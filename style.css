@@ -175,17 +175,51 @@ body{
     background-color: #fff;
     text-align: left;
     border-top: 1px solid #ddd;
-    padding: 2.2rem 2rem 1rem;
+    padding: 2.2rem 1.6rem 1rem;
 }
 
 .footerHeading{
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
     margin-top: 1rem;
 }
 
 .footerPara{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-bottom: 0rem;
     margin-top: 1rem;
+}
+
+.footer-bottom{
+    background-color: #172337;
+}
+
+.headingFooter{
+    color: #878787;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+}
+
+.paraFooter{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: white;
+}
+
+.verticalBorder{
+    border-left: 1px solid #454d5e;
+    border-left-width: 1px;
+    border-left-style: solid;
+    height: 8.9rem;
+}
+
+.footerFont{
+    font-size: 0.9rem;
+}
+
+.footerBorder{
+    border-top: 1px solid #454d5e;
+    border-top-width: 1px;
+    border-top-style: solid;
 }
