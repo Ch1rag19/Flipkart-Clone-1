@@ -59,13 +59,15 @@ body{
 .login{
     display: flex;
     justify-content: center;
-    padding: 0;
+    padding: 0.3em;
 }
 
 .login button{
     border-radius: 0;
     border: 0;
     padding: 0.375rem 2.75rem;
+    font-weight: bolder; 
+
 }
 
 .dropdown:hover .dropdown-menu{
@@ -94,7 +96,7 @@ body{
 .Navbar {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-bottom: 1em;
     padding: .5em 0.2em;
     color: #87878790;
@@ -105,6 +107,12 @@ body{
 .Navbar a{
     color: black;
     font-size: .8em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Navbar a:hover{
+    color: #2874f0;
 }
 
 /* Cards */
@@ -143,9 +151,13 @@ body{
 }
 
 .cardImage{
-    /* position: absolute; */
     padding: 1rem 1rem 0rem;
     cursor: pointer;
+    transform: scale(.98);
+}
+
+.cardImage:hover{
+    transform: scale(1);
 }
 
 .cardMain{
@@ -201,6 +213,11 @@ body{
 .cardImages{
     margin: 1rem 0.8rem 0rem;
     cursor: pointer;
+    transform: scale(.98);
+}
+
+.cardImages:hover{
+    transform: scale(1);
 }
 
 .uniCards{
@@ -271,3 +288,25 @@ body{
     cursor: pointer;
 }
 
+/* Media Queries
+@media only screen and (max-width: 1280px) {
+    .card5{
+        display: none;
+    }
+    body{
+        overflow-x: hidden;
+    }
+} */
+
+/* Media Queries */
+@media screen and (max-width: 576px){
+    
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 992px){
+
+}
