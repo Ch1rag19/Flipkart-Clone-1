@@ -314,6 +314,11 @@ body{
     .Navbar{
         width: 801px;
     }
+
+    .slide{
+        width: 801px;
+    }
+
 }
 
 @media screen and (max-width: 768px){
