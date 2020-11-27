@@ -88,13 +88,13 @@ body{
     padding: 0;
     
 }
+
 .more-list{
     font-size: .8em;
 }
 
 /* Navbar */
 .Navbar {
-    display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
     margin-bottom: 1em;
@@ -102,6 +102,7 @@ body{
     color: #87878790;
     background-color: #fff;
     padding-top: 4em;
+    width: 100%;
 }
 
 .Navbar a{
@@ -111,8 +112,11 @@ body{
     font-weight: bold;
 }
 
-.Navbar a:hover{
+.Navbar a:hover, i:hover{
     color: #2874f0;
+}
+
+.slide{
 }
 
 /* Cards */
@@ -300,7 +304,16 @@ body{
 
 /* Media Queries */
 @media screen and (max-width: 576px){
-    
+    body{
+        overflow-x: hidden;
+    }
+
+    .Navbar a{
+        font-size: 0.7rem;
+    }
+    .Navbar{
+        width: 801px;
+    }
 }
 
 @media screen and (max-width: 768px){
