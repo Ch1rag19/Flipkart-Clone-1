@@ -319,6 +319,9 @@ body{
         width: 801px;
     }
 
+    .slide img{
+        height: 15rem;
+    }
 }
 
 @media screen and (max-width: 768px){
