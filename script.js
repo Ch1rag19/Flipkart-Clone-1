@@ -1,17 +1,14 @@
-var x,y;
-if (self.innerHeight) // all except Explorer
-{
-  x = self.innerWidth;
-  y = self.innerHeight;
+const header = document.querySelector('.Header');
+const nav = document.querySelector('.Navbar')
+const topOfNav = header.offsetTop;
+
+function fixNav(){
+    if (window.scrollY >= topOfNav){
+        nav.style.paddingTop = header.offsetHeight + 2 + 'px';
+    }
+    else{
+        nav.style.paddingTop = 0;
+    }
 }
-else if (document.documentElement && document.documentElement.clientHeight)
-// Explorer 6 Strict Mode
-{
-  x = document.documentElement.clientWidth;
-  y = document.documentElement.clientHeight;
-}
-else if (document.body) // other Explorers
-{
-  x = document.body.clientWidth;
-  y = document.body.clientHeight;
-}
+// for fixing the navbar at top
+window.addEventListener('scroll',fixNav);
